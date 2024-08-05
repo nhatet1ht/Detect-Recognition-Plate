@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detection Results</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="cont">
+        <h1>License Plate Detection Results</h1>
+        <div class="container">
+            <div class="image-container">
+                <div class="image-wrapper">
+                    <h3>Image:</h3>
+                    <img src="{{ url_for('img') }}" alt="Image">
+                </div>
+                <div class="image-wrapper">
+                    <h3>Processed Image:</h3>
+                    <img src="{{ url_for('load_img') }}" alt="Processed Image">
+                </div>
+                <div class="image-wrapper">
+                    <h3>Cropped License Plate:</h3>
+                    <img src="{{ url_for('static', filename='cropped_plate.jpg') }}" alt="Cropped License Plate">
+                </div>
+            </div>
+            <h2>Extracted License Plate:</h2>
+            <p>{{ license_plate_text }}</p>
+            <a href="/" class="btn">Upload Another Image</a>
+        </div>
+    </div>
+</body>
+</html>

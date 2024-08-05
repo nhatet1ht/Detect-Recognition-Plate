@@ -1,0 +1,85 @@
+    body {
+        background-color: white;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    h1, h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+        margin: 20px 0 10px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .image-wrapper {
+        margin: 20px;
+        flex: 1 1 45%;
+        max-width: 45%;
+        text-align: center;
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        max-width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    p {
+        font-size: 35px; /* Thay đổi kích thước phù hợp với nhu cầu của bạn */
+        font-weight: bold; /* Có thể thay đổi thuộc tính khác như font-weight, font-family, ... */
+        color: #333; /* Đổi màu sắc nếu cần thiết */
+    }
+
+    .btn {
+        background: #4CAF50;
+        color: white;
+        font-size: 25px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: background-color 0.3s;
+        display: inline-block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+
+    .cont {
+        background-color: white;
+        padding: 50px 0;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }

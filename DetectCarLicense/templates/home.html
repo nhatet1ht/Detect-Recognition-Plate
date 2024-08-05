@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Car License Plate Detection</title>
+    <meta charset="UTF-8">
+    <link href="static/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cont">
+        <h2>WELCOME<br> TO CAR LICENSE PLATE DETECTION</h2>
+        <div class="container">
+            <form method="POST" action="{{ url_for('home') }}" enctype="multipart/form-data">
+                <input type="file" name="image" class="btn"><br><br>
+                <input type="submit" class="btn" value="Nộp">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
